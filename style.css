@@ -23,14 +23,17 @@ body {
 .navigation {
     padding: 15px;
     top: 15px;
-    right: 15px;
-    display: flex;
-    justify-content: flex-end;
+    right: 20px;
     position: absolute;
 }
 
 .nav-link {
     color: white;
+    display: flex;
+    justify-content: flex-end;
+
     text-decoration: none;
     margin: 0 15px;
+    border-color: blue;
+    border-radius: 8px;
 }
