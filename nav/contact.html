@@ -3,63 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../assets/axa_logo.webp" type="image/x-icon">
     <link rel="stylesheet" href="css/style-contact.css">
-    <title>Document</title>
+    <title>AXA Mataró - Contacte</title>
 </head>
 <body>
         <form>
         <h2>
-            Formulari de Contacte
+            Formulari de Contacte [AXA]
         </h2>
          <fieldset>
-            <legend>INFORMACIÓ BÁSICA</legend>
+            <legend>INFORMACIÓ BÀSICA</legend>
             <div class="form_input">
-                <label for="nombre">Nombre y apellido:</label>
-                <input type="text" placeholder="Nick Danworth" id="nombre">
+                <label for="nombre">Nom i cognom:</label>
+                <input type="text" placeholder="Ruben Moré" id="nombre">
             </div>
             <div class="form_input">
-                <label for="correo">Correo Eléctronico:</label>
-                <input type="email" placeholder="corre.electronico@gmail.com" id="correo">
+                <label for="correo">Correu Eléctronico:</label>
+                <input type="email" placeholder="nom.cognom@inslescincsenies.cat" id="correo">
             </div>
             <div class="form_input">
-                <label>Asunto: 
-                    <input type="text" placeholder="El asunto del mensaje">
+                <label>Assumpte: 
+                    <input type="text" placeholder="Específica el motiu del contacti">
                 </label>
             </div>
         </fieldset>
          <fieldset>
-            <legend>TIPO</legend>
+            <legend>TIPUS</legend>
             <div class="form_input">
-                <label>Tipo de Usuario:
-                    <select name="type-of-user">
-                        <option value="user1">Seguidor</option>
+                <label>Tipus d'Usuari:
+                    <select name="type-of-user" class="select">
+                        <option value="none"></option>
+                        <option value="user1">Particular</option>
                         <option value="user2">Empresa</option>
-                        <option value="user3">Otros</option>
+                        <option value="user3">Autònom</option>
+                        <option value="user4">Altres</option>
                     </select>
                 </label>
              </div>
         </fieldset>
          <fieldset>
-            <legend>REFERENTES</legend>
+            <legend>REFERENCIACIÓ</legend>
             <div class="form_input">
-                <label>Referente:
+                <label>Com has conegut l'oficina?:
                     <input list="referente" name="referente">
                     <datalist id="referente" name="type-of-user">
-                        <option value="Soy Dalto">Un creador de contenido</option>
-                        <option value="Empresa">Entidad financiera y empresarial</option>
-                        <option value="Un Amigo">Un colega con poco pelo</option>
+                        <option value="Personal">Un amic o un familiar</option>
+                        <option value="Empresa">Entitat financera i empresarial</option>
                     </datalist>
                 </label>
             </div>
      </fieldset>
         <fieldset>
-            <legend>MENSAJE FINAL</legend>
+            <legend>MISSATGE</legend>
             <div class="form_input">
-                <label for="message">Tú mensaje:</label>
-                <textarea placeholder="Escribe tú mensaje..." id="message"></textarea>
+                <label for="message">Escriu aquí detalladament el que vulguis comentar:</label>
+                <textarea placeholder="Escriu el teu missatge..." id="message"></textarea>
             </div>
             <div class="form_input">
-                <label>Acepto los <a href="terms.html" target="blank">terminos y Condiciones</a>
+                <label>Acepto los <a href="" target="blank">terminos y Condiciones</a>
                     <input type="checkbox" class="checkbox">
                 </label>
             </div>
