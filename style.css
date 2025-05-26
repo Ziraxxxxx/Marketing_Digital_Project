@@ -87,8 +87,7 @@ section {
 
 .main-article p {
     font-size: 18px;
-    line-height: 1.6;
-    margin-bottom: 15px;
+    line-height: 2;
     overflow: break-word;
 }
 
@@ -99,6 +98,17 @@ section {
     bottom: 165px;
     right: 25px;
     border-radius: 14px;
+}
+
+.photo-main {
+    position: absolute;
+    width: 34%;
+    bottom: -100px;
+    left: 290px;
+}
+
+.text-2 {
+    text-align: center;
 }
 
 .footer-section {
