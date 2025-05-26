@@ -3,9 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style-contact.css">
     <title>Document</title>
 </head>
 <body>
-    
+        <form>
+        <h2>
+            Formulari de Contacte
+        </h2>
+         <fieldset>
+            <legend>INFORMACIÓ BÁSICA</legend>
+            <div class="form_input">
+                <label for="nombre">Nombre y apellido:</label>
+                <input type="text" placeholder="Nick Danworth" id="nombre">
+            </div>
+            <div class="form_input">
+                <label for="correo">Correo Eléctronico:</label>
+                <input type="email" placeholder="corre.electronico@gmail.com" id="correo">
+            </div>
+            <div class="form_input">
+                <label>Asunto: 
+                    <input type="text" placeholder="El asunto del mensaje">
+                </label>
+            </div>
+        </fieldset>
+         <fieldset>
+            <legend>TIPO</legend>
+            <div class="form_input">
+                <label>Tipo de Usuario:
+                    <select name="type-of-user">
+                        <option value="user1">Seguidor</option>
+                        <option value="user2">Empresa</option>
+                        <option value="user3">Otros</option>
+                    </select>
+                </label>
+             </div>
+        </fieldset>
+         <fieldset>
+            <legend>REFERENTES</legend>
+            <div class="form_input">
+                <label>Referente:
+                    <input list="referente" name="referente">
+                    <datalist id="referente" name="type-of-user">
+                        <option value="Soy Dalto">Un creador de contenido</option>
+                        <option value="Empresa">Entidad financiera y empresarial</option>
+                        <option value="Un Amigo">Un colega con poco pelo</option>
+                    </datalist>
+                </label>
+            </div>
+     </fieldset>
+        <fieldset>
+            <legend>MENSAJE FINAL</legend>
+            <div class="form_input">
+                <label for="message">Tú mensaje:</label>
+                <textarea placeholder="Escribe tú mensaje..." id="message"></textarea>
+            </div>
+            <div class="form_input">
+                <label>Acepto los <a href="terms.html" target="blank">terminos y Condiciones</a>
+                    <input type="checkbox" class="checkbox">
+                </label>
+            </div>
+        </fieldset>
+    </form>
 </body>
 </html>
