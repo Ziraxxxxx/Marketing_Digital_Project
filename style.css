@@ -1,14 +1,36 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f6f8;
-    margin: 0;
-    padding: 20px;
-    color: #333;
+    color: #1f1f1f;
 }
 
 .header-section {
-    background-color: #0a350c;
+    background-color: #6baeec;
     color: white;
     padding: 10px 0;
+    position: relative;
     text-align: center;
+}
+
+.header-section img {
+    text-align: left;
+    width: 120px;
+    height: 90px;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+
+.navigation {
+    padding: 15px;
+    top: 15px;
+    right: 15px;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
 }
