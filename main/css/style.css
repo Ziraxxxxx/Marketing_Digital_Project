@@ -23,7 +23,7 @@ body {
     text-decoration: none;
     display: inline-block;
     padding: 15px;
-    background-color: #58b1ff;
+    background-color: #6ebbff;
     border-radius: 8px;
 }
 
@@ -38,7 +38,7 @@ body {
     position: absolute;
 }
 #nav_item_abotus {
-    left: 230px;
+    left: 290px;
     top: 20px;
     position: absolute;
 }
@@ -64,8 +64,8 @@ body {
     }
 
 .logo {
-    width: 110px;
-    height: 90px;
+    width: 5%;
+    height: 6%;
     vertical-align: middle;
     border-radius: 80%;
 }
@@ -123,4 +123,9 @@ section {
     margin: 10px 0;
     font-size: 15px;
     font-style: oblique;
+}
+
+a {
+    text-decoration: none;
+    color: #3e80bb;
 }
