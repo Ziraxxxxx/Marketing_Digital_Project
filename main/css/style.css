@@ -78,6 +78,10 @@ section {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.main-article {
+    position: relative;
+}
+
 .main-article h2 {
     padding-bottom: 65px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -102,14 +106,15 @@ section {
 }
 
 .photo-main {
+    width: 40%;
+    bottom: 300px;
+    left: 65px;
     position: absolute;
-    width: 34%;
-    bottom: -100px;
-    left: 290px;
 }
 
 .text-2 {
     text-align: center;
+    margin: 0;
 }
 
 .footer-section {
