@@ -91,6 +91,7 @@ section {
 }
 
 .main-article p {
+    position:sticky;
     font-size: 18px;
     line-height: 2;
     overflow: break-word;
@@ -106,10 +107,10 @@ section {
 }
 
 .photo-main {
-    width: 40%;
-    bottom: 300px;
-    left: 65px;
     position: absolute;
+    width: 40%;
+    bottom: 200px;
+    left: 150px;
 }
 
 .text-2 {
